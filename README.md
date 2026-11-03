@@ -8,7 +8,7 @@
 
 | 系统 | 状态 | 下载 |
 | --- | --- | --- |
-| Windows 10 / 11，64 位 | v3.2 正在准备发布 | 安装包通过验证后提供下载 |
+| Windows 10 / 11，64 位 | **v3.2.0 已发布** | [下载 Windows ZIP](https://github.com/songdx1019-star/hongguo-desktop-releases/releases/download/v3.2.0/Hongguo-Desktop-v3.2.0-Windows-x64.zip) |
 | macOS | **待发布** | 暂无可运行安装包 |
 
 请从本仓库的 [Releases](https://github.com/songdx1019-star/hongguo-desktop-releases/releases) 获取软件。macOS 版本需要单独构建和验证，目前不提供下载。
@@ -63,3 +63,5 @@
 ## v3.2 更新
 
 红果客户端图标；控制条自动隐藏与可调倒计时；倍速旁快速选集；真实弹幕开关；保留下一集预加载、最小化暂停、透明度与独立设置窗口。
+
+校验文件：[SHA256SUMS.txt](https://github.com/songdx1019-star/hongguo-desktop-releases/releases/download/v3.2.0/SHA256SUMS.txt)
