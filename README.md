@@ -8,7 +8,7 @@
 
 | 系统 | 状态 | 下载 |
 | --- | --- | --- |
-| Windows 10 / 11，64 位 | **v3.2.0 已发布** | [下载 Windows ZIP](https://github.com/songdx1019-star/hongguo-desktop-releases/releases/download/v3.2.0/Hongguo-Desktop-v3.2.0-Windows-x64.zip) |
+| Windows 10 / 11，64 位 | **v3.3.0 已发布** | [下载 Windows ZIP](https://github.com/songdx1019-star/hongguo-desktop-releases/releases/download/v3.3.0/Hongguo-Desktop-v3.3.0-Windows-x64.zip) |
 | macOS | **待发布** | 暂无可运行安装包 |
 
 请从本仓库的 [Releases](https://github.com/songdx1019-star/hongguo-desktop-releases/releases) 获取软件。macOS 版本需要单独构建和验证，目前不提供下载。
@@ -20,7 +20,7 @@
 - **紧凑小窗**：按视频画幅调整大小，减少上下留白；小窗自动置顶，左上角菜单可回主窗口。
 - **窗口透明度**：30%～100% 实时调整。支持深色、白色及自定义底色，并可调节画面融色；主窗口与小窗分别保存配置。
 - **独立设置窗口**：点击齿轮打开设置，不在主画面下方追加面板。
-- **自动隐藏控制条**：鼠标静止或移出画面后，默认 3 秒隐藏底部进度条和播放按钮；移动鼠标重新显示，设置中可改为 1～15 秒。
+- **底部悬停控制条**：鼠标进入画面底部区域时，进度条与控制按钮从下方滑入并渐显；移出后立即渐隐。动画约 0.18 秒，不再等待数秒。拖动进度、操作选集或倍速菜单时保持显示。
 - **快速选集**：倍速旁的“选集”按钮打开可滚动的剧集列表，突出当前集，点击即可切换；小窗同样支持。
 - **弹幕开关**：默认关闭，开启后显示真实时间轴弹幕。暂停时弹幕暂停，快进、后退后跟随进度；没有数据的时间段不会显示虚构弹幕。
 - **本机剧库**：未登录时，观看记录、播放进度和收藏保存在本机。
@@ -31,7 +31,7 @@
 1. 下载 Windows ZIP 安装包并完整解压。
 2. 双击 `短剧播放器.exe`。请保留同目录的 `_internal` 文件夹，不要只移动 EXE。
 3. 搜索剧名，点击海报进入分集播放。
-4. 点击右上角齿轮配置透明度、底色、控制条隐藏时间及快捷键。
+4. 点击右上角齿轮配置透明度、底色及快捷键。
 
 运行新版前，请先退出旧版；同一时间只允许启动一个实例，旧版未退出时再次启动可能只是唤回旧窗口。
 
@@ -60,8 +60,8 @@
 
 问题请提交到 [Issues](https://github.com/songdx1019-star/hongguo-desktop-releases/issues)，附上版本、Windows 版本、剧名、集数及错误文字即可。不要提交登录二维码、账号会话或其他隐私数据。
 
-## v3.2 更新
+## v3.3 更新
 
-红果客户端图标；控制条自动隐藏与可调倒计时；倍速旁快速选集；真实弹幕开关；保留下一集预加载、最小化暂停、透明度与独立设置窗口。
+控制条改为底部悬停滑入／渐出，移出立即隐藏；取消原来的 3 秒倒计时。保留红果图标、快速选集、真实弹幕、下一集预加载、最小化暂停、透明度及独立设置。
 
-校验文件：[SHA256SUMS.txt](https://github.com/songdx1019-star/hongguo-desktop-releases/releases/download/v3.2.0/SHA256SUMS.txt)
+校验文件：[SHA256SUMS.txt](https://github.com/songdx1019-star/hongguo-desktop-releases/releases/download/v3.3.0/SHA256SUMS.txt)
