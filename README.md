@@ -11,7 +11,7 @@
 | Windows 10 / 11，64 位 | **v3.4.0 已发布** | [下载 Windows ZIP](https://github.com/songdx1019-star/hongguo-desktop-releases/releases/download/v3.4.0/Hongguo-Desktop-v3.4.0-Windows-x64.zip) |
 | macOS | **待发布** | 暂无可运行安装包 |
 
-请从本仓库的 [Releases](https://github.com/songdx1019-star/hongguo-desktop-releases/releases) 获取软件。macOS 版本需要单独构建和验证，目前不提供下载。
+请从本仓库的 [Releases](https://github.com/songdx1019-star/hongguo-desktop-releases/releases) 获取软件。macOS 版本需要单独于MacOS进行构建和验证，目前不提供下载（等我下班用mac跑一遍我就push上来）。
 
 ## 功能
 
