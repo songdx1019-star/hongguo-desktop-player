@@ -8,14 +8,15 @@
 
 | 系统 | 状态 | 下载 |
 | --- | --- | --- |
-| Windows 10 / 11，64 位 | **v3.3.0 已发布** | [下载 Windows ZIP](https://github.com/songdx1019-star/hongguo-desktop-releases/releases/download/v3.3.0/Hongguo-Desktop-v3.3.0-Windows-x64.zip) |
+| Windows 10 / 11，64 位 | **v3.4.0 已发布** | [下载 Windows ZIP](https://github.com/songdx1019-star/hongguo-desktop-releases/releases/download/v3.4.0/Hongguo-Desktop-v3.4.0-Windows-x64.zip) |
 | macOS | **待发布** | 暂无可运行安装包 |
 
 请从本仓库的 [Releases](https://github.com/songdx1019-star/hongguo-desktop-releases/releases) 获取软件。macOS 版本需要单独构建和验证，目前不提供下载。
 
 ## 功能
 
-- **短剧搜索与播放**：搜索剧名，查看分集、切换剧集；实际可用内容以服务端返回为准。
+- **推荐刷剧与分集播放**：推荐页滚轮／上下键切换不同短剧，点击首页推荐刷新；点击右侧“进入剧集”后保留播放并打开列表，滚轮改为切换这部剧的分集，“返回推荐”继续刷剧。搜索剧名也可进入分集播放。
+- **喜欢／收藏数量**：推荐画面右侧显示官网公开页面的全剧数量；未提供时显示“—”，小窗不显示。
 - **下一集预加载**：播放当前集时，提前准备下一集；自动连播和手动下一集优先复用缓存。首次播放、网速不足或连续跳集时仍可能等待。
 - **紧凑小窗**：按视频画幅调整大小，减少上下留白；小窗自动置顶，左上角菜单可回主窗口。
 - **窗口透明度**：30%～100% 实时调整。支持深色、白色及自定义底色，并可调节画面融色；主窗口与小窗分别保存配置。
@@ -43,7 +44,8 @@
 | 右上角 `—` | 最小化并暂停；恢复后保持暂停，手动继续 |
 | `Shift + 鼠标滚轮` | 调整当前窗口透明度，每格 5% |
 | 空格 / 点击视频 | 播放／暂停 |
-| 视频上滚轮 / `↑`、`↓` | 切换上一集／下一集 |
+| 视频上滚轮 / `↑`、`↓` | 推荐模式换短剧；进入剧集后切换分集 |
+| 右侧“进入剧集” | 进入当前短剧分集列表，保留当前播放 |
 | 倍速旁“选集” | 打开快速选集列表 |
 | “弹幕”开关 | 开启／关闭弹幕，并保存选择 |
 | 列表页“返回播放” / `Esc` | 返回当前视频；全屏时 `Esc` 退出全屏 |
@@ -60,8 +62,8 @@
 
 问题请提交到 [Issues](https://github.com/songdx1019-star/hongguo-desktop-releases/issues)，附上版本、Windows 版本、剧名、集数及错误文字即可。不要提交登录二维码、账号会话或其他隐私数据。
 
-## v3.3 更新
+## v3.4 更新
 
-控制条改为底部悬停滑入／渐出，移出立即隐藏；取消原来的 3 秒倒计时。保留红果图标、快速选集、真实弹幕、下一集预加载、最小化暂停、透明度及独立设置。
+修复隐藏后恢复窗口；推荐页滚轮改为换短剧，首页推荐可刷新；新增“进入剧集”和“返回推荐”，进入后滚轮切分集；右侧显示官网全剧喜欢／收藏数量，小窗隐藏统计。保留底部悬停控制条、真实弹幕、预加载及透明度设置。
 
-校验文件：[SHA256SUMS.txt](https://github.com/songdx1019-star/hongguo-desktop-releases/releases/download/v3.3.0/SHA256SUMS.txt)
+校验文件：[SHA256SUMS.txt](https://github.com/songdx1019-star/hongguo-desktop-releases/releases/download/v3.4.0/SHA256SUMS.txt)
