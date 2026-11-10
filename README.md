@@ -1,12 +1,12 @@
 <h1 align="center">红果短剧</h1>
 <p align="center">独立桌面播放器<br>找剧、刷剧、接着看。</p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Release-v3.7.0-ff315d?style=flat-square" alt="v3.7.0">
+  <img src="https://img.shields.io/badge/Release-v3.7.1-ff315d?style=flat-square" alt="v3.7.1">
   <img src="https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4?style=flat-square" alt="Windows 10 / 11">
   <img src="https://img.shields.io/badge/macOS-pending-777887?style=flat-square" alt="macOS 待发布">
 </p>
 <p align="center">
-  <a href="https://github.com/songdx1019-star/hongguo-desktop-releases/releases/download/v3.7.0/Hongguo-Desktop-v3.7.0-Windows-x64.zip"><b>下载 Windows v3.7.0</b></a> ·
+  <a href="https://github.com/songdx1019-star/hongguo-desktop-releases/releases/download/v3.7.1/Hongguo-Desktop-v3.7.1-Windows-x64.zip"><b>下载 Windows v3.7.1</b></a> ·
   <a href="https://github.com/songdx1019-star/hongguo-desktop-releases/releases">版本记录</a> ·
   <a href="https://github.com/songdx1019-star/hongguo-desktop-releases/issues">反馈问题</a>
 </p>
@@ -19,10 +19,14 @@
 
 | 平台 | 版本 | 下载 |
 | :--- | :--- | :--- |
-| Windows 10 / 11，64位 | v3.7.0 | [下载 ZIP](https://github.com/songdx1019-star/hongguo-desktop-releases/releases/download/v3.7.0/Hongguo-Desktop-v3.7.0-Windows-x64.zip) · [SHA-256 校验](https://github.com/songdx1019-star/hongguo-desktop-releases/releases/download/v3.7.0/SHA256SUMS.txt) |
+| Windows 10 / 11，64位 | v3.7.1 | [下载 ZIP](https://github.com/songdx1019-star/hongguo-desktop-releases/releases/download/v3.7.1/Hongguo-Desktop-v3.7.1-Windows-x64.zip) · [SHA-256 校验](https://github.com/songdx1019-star/hongguo-desktop-releases/releases/download/v3.7.1/SHA256SUMS.txt) |
 | macOS | 待发布 | 尚无经过 Mac 实机构建验证的安装包 |
 
 完整解压后，双击 `红果短剧.exe` 即可运行，无须安装安卓模拟器。保留同目录的 `_internal` 等随包文件；升级时先退出旧版。
+
+## v3.7.1 更新
+
+修复观看历史较多时，后台同步与首页整理阻塞界面、导致按钮迟迟不响应的问题。整理历史改为一次遍历；播放时不再重建隐藏的首页，未变化的卡片保留原样。
 
 ## 四个入口，日常够用
 
@@ -112,7 +116,7 @@
 
 个人维护的非官方客户端，与红果短剧官方无关。本仓库存放安装包、使用说明与展示图，不公开上传开发源码。第三方许可随软件保留，见 `LICENSE`、`THIRD_PARTY_NOTICES.md` 和 `licenses`。
 
-Windows 版通过190项回归测试，并使用隔离数据离屏验证真实搜索、视频解码、自动下一集、透明度配置、弹幕及隐藏／最小化暂停。展示图由程序自身的离屏窗口生成，未截取用户桌面；Windows 验证不代替 Mac 验收。
+Windows 版通过194项回归测试，并使用隔离数据离屏验证真实搜索、视频解码、自动下一集、透明度配置、弹幕及隐藏／最小化暂停。展示图由程序自身的离屏窗口生成，未截取用户桌面；Windows 验证不代替 Mac 验收。
 
 内容与账号接口、网络状态及设备能力可能影响播放。安装包未做发行者数字签名，可使用随 Release 提供的 SHA-256 核对。
 
