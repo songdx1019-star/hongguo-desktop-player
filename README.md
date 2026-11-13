@@ -1,15 +1,28 @@
-<h1 align="center">红果短剧电脑版 · 透明小窗播放器</h1>
-<p align="center"><b>小窗刷剧，自由调透明度，工作间隙轻松摸鱼。</b><br>清爽深色 UI · 紧凑小窗 · 自定义底色 · Ctrl + D 隐藏／恢复<br>Hongguo Desktop · Windows 短剧播放器，无需安卓模拟器</p>
+<h1 align="center">红果短剧电脑版 · Hongguo Desktop Player</h1>
+<p align="center"><b>手机与电脑接着看，工作间隙小窗刷。</b><br>手机端自动同步与跨端续播 · 透明小窗 · 清爽 UI · 自动连播<br>30%～100% 透明度 · 自定义底色 · Ctrl + D 隐藏／恢复<br>Windows 下载即用，无需安卓模拟器；非官方红果短剧客户端</p>
 <p align="center">
   <img src="https://img.shields.io/badge/版本-v3.8.0-ff315d?style=flat-square" alt="v3.8.0">
   <img src="https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4?style=flat-square" alt="Windows 10 / 11">
   <img src="https://img.shields.io/badge/macOS-待发布-777887?style=flat-square" alt="macOS 待发布">
 </p>
 <p align="center">
-  <a href="https://github.com/songdx1019-star/hongguo-desktop-releases/releases/download/v3.8.0/Hongguo-Desktop-v3.8.0-Windows-x64.zip"><b>下载 Windows v3.8.0</b></a> ·
-  <a href="https://github.com/songdx1019-star/hongguo-desktop-releases/releases">版本记录</a> ·
-  <a href="https://github.com/songdx1019-star/hongguo-desktop-releases/issues">反馈问题</a>
+  <a href="https://github.com/songdx1019-star/hongguo-desktop-player/releases/download/v3.8.0/Hongguo-Desktop-v3.8.0-Windows-x64.zip"><b>下载 Windows v3.8.0</b></a> ·
+  <a href="https://github.com/songdx1019-star/hongguo-desktop-player/releases">版本记录</a> ·
+  <a href="https://github.com/songdx1019-star/hongguo-desktop-player/issues">反馈问题</a>
 </p>
+
+## 手机看到哪，电脑接着看
+
+电脑看一会儿，回到手机继续；手机更新了进度，再回电脑接着看。通过红果账号接入官方历史、收藏与播放进度，自动保存和提交观看位置，减少手动找集、拖进度的操作。
+
+- **未登录**：观看和收藏记录保存在本机。
+- **登录**：使用手机红果 App 扫描官网二维码，并在手机上确认。
+- **观看过程中**：定时保存进度，暂停、隐藏和退出时提交最后位置；未确认的提交保留在本机。
+- **再次继续**：短暂暂停直接续播，长时间离开后确认本剧云端位置；明确登录过期时提示重新扫码。
+
+已接入官方历史、播放进度和收藏通道。手机最终界面的接续、真实长期休眠及收藏完整双向操作仍需实机验收；断网退出时不能保证进度立即出现在手机上。
+
+官方点赞、评论、弹幕互动及预约双向同步尚未完成，当前没有预约入口。
 
 ## 透明小窗，工作间隙轻松刷剧
 
@@ -27,6 +40,7 @@
 
 | 日常使用 | 这里怎么做 |
 | :--- | :--- |
+| **手机／电脑接着看** | 官方账号同步历史、收藏与播放进度；观看过程中自动保存与提交 |
 | **小窗更省空间** | 贴合视频比例，减少空白；控件在需要时出现 |
 | **透明度随手调** | 整窗 30%～100%，Shift + 滚轮每次调节 5% |
 | **适应桌面配色** | 深色、白色或自定义底色，主窗与小窗分别记忆 |
@@ -44,7 +58,7 @@
 
 | 平台 | 状态 | 下载 |
 | :--- | :--- | :--- |
-| Windows 10 / 11，64 位 | v3.8.0 | [下载运行包](https://github.com/songdx1019-star/hongguo-desktop-releases/releases/download/v3.8.0/Hongguo-Desktop-v3.8.0-Windows-x64.zip) · [SHA-256 校验](https://github.com/songdx1019-star/hongguo-desktop-releases/releases/download/v3.8.0/SHA256SUMS.txt) |
+| Windows 10 / 11，64 位 | v3.8.0 | [下载运行包](https://github.com/songdx1019-star/hongguo-desktop-player/releases/download/v3.8.0/Hongguo-Desktop-v3.8.0-Windows-x64.zip) · [SHA-256 校验](https://github.com/songdx1019-star/hongguo-desktop-player/releases/download/v3.8.0/SHA256SUMS.txt) |
 | macOS | 待发布 | 暂无经过 Mac 本机构建和播放验证的安装包 |
 
 1. 先退出正在运行的旧版。
@@ -104,17 +118,6 @@
 
 ![播放设置](docs/screenshots/v3.8.0/playback-settings.png)
 
-## 登录与手机接续
-
-- **未登录**：观看和收藏记录保存在本机。
-- **登录**：使用手机红果 App 扫描官网二维码，并在手机上确认。
-- **观看过程中**：定时保存进度，暂停、隐藏和退出时提交最后位置；未确认的提交保留在本机。
-- **再次继续**：短暂暂停直接续播，长时间离开后确认本剧云端位置；明确登录过期时提示重新扫码。
-
-已接入官方历史、播放进度和收藏通道。手机最终界面的接续、真实长期休眠及收藏完整双向操作仍需实机验收；断网退出时不能保证进度立即出现在手机上。
-
-官方点赞、评论、弹幕互动及预约双向同步尚未完成，当前没有预约入口。
-
 ## 常用操作
 
 | 操作 | 快捷方式 |
@@ -140,6 +143,6 @@ v3.8.0 通过 **240 项 Python 全量回归**、最终 **17 项相关检查**、
 这是个人维护的非官方客户端，与红果短剧官方无隶属关系。本仓库用于发布运行包、说明和展示图，不公开上传应用源码；第三方组件许可和相关对应源码保留在软件包内。内容接口、网络和设备能力会影响可播放范围。
 
 <p align="center">
-  <a href="https://github.com/songdx1019-star/hongguo-desktop-releases/releases/latest">下载最新版</a> ·
-  <a href="https://github.com/songdx1019-star/hongguo-desktop-releases/issues">提交反馈</a>
+  <a href="https://github.com/songdx1019-star/hongguo-desktop-player/releases/latest">下载最新版</a> ·
+  <a href="https://github.com/songdx1019-star/hongguo-desktop-player/issues">提交反馈</a>
 </p>
