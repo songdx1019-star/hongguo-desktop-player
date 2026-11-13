@@ -1,5 +1,5 @@
-<h1 align="center">红果短剧 · 桌面版</h1>
-<p align="center">继续上次的故事，发现下一部好剧。<br>在电脑上搜索、刷剧、连播，也能切换透明小窗。</p>
+<h1 align="center">红果短剧电脑版 · 透明小窗播放器</h1>
+<p align="center"><b>小窗刷剧，自由调透明度，工作间隙轻松摸鱼。</b><br>清爽深色 UI · 紧凑小窗 · 自定义底色 · Ctrl + D 隐藏／恢复<br>Hongguo Desktop · Windows 短剧播放器，无需安卓模拟器</p>
 <p align="center">
   <img src="https://img.shields.io/badge/版本-v3.8.0-ff315d?style=flat-square" alt="v3.8.0">
   <img src="https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4?style=flat-square" alt="Windows 10 / 11">
@@ -10,6 +10,33 @@
   <a href="https://github.com/songdx1019-star/hongguo-desktop-releases/releases">版本记录</a> ·
   <a href="https://github.com/songdx1019-star/hongguo-desktop-releases/issues">反馈问题</a>
 </p>
+
+## 透明小窗，工作间隙轻松刷剧
+
+整窗支持 **30%～100% 透明度**，视频与控件一起生效。可以选择深色、白色或自定义底色，配合画面融色使用；主窗口和小窗分别记忆外观配置。
+
+<table>
+  <tr><th>紧凑小窗</th><th>独立设置窗口</th></tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/v3.8.0/mini.png" alt="贴合视频比例的透明小窗" width="400"></td>
+    <td align="center"><img src="docs/screenshots/v3.8.0/settings.png" alt="独立外观设置窗口" width="560"></td>
+  </tr>
+</table>
+
+小窗按视频比例调整，减少空白。设置保持独立、不透明，便于调节；隐藏窗口和点击最小化都会暂停视频。
+
+| 日常使用 | 这里怎么做 |
+| :--- | :--- |
+| **小窗更省空间** | 贴合视频比例，减少空白；控件在需要时出现 |
+| **透明度随手调** | 整窗 30%～100%，Shift + 滚轮每次调节 5% |
+| **适应桌面配色** | 深色、白色或自定义底色，主窗与小窗分别记忆 |
+| **快速隐藏与恢复** | Ctrl + D 全局切换；隐藏时暂停播放 |
+| **清爽界面** | 首页、推荐、找剧、我的四个入口，设置独立打开 |
+| **刷剧与追剧** | 搜索多季合集、快速选集、自动连播与下一集预加载 |
+
+小窗适合边处理日常事务边看剧；透明度调节用于调整观感，不代表窗口完全不可见。全局快捷键可按习惯修改，使用时也请遵守所在场所的规定。
+
+## 大窗沉浸看，小窗轻松刷
 
 ![红果短剧播放器](docs/screenshots/v3.8.0/player.png)
 
@@ -76,20 +103,6 @@
 支持官方时间轴弹幕开关、自动连播和可选画质增强，默认选择片源提供的最高分辨率。增强或编码转换可能增加首次准备时间，实际效果取决于片源与设备。
 
 ![播放设置](docs/screenshots/v3.8.0/playback-settings.png)
-
-## 透明小窗，按习惯调整
-
-整窗支持 **30%～100% 透明度**，视频与控件一起生效。可以选择深色、白色或自定义底色，配合画面融色使用；主窗口和小窗分别记忆外观配置。
-
-<table>
-  <tr><th>紧凑小窗</th><th>独立设置窗口</th></tr>
-  <tr>
-    <td align="center"><img src="docs/screenshots/v3.8.0/mini.png" alt="贴合视频比例的透明小窗" width="400"></td>
-    <td align="center"><img src="docs/screenshots/v3.8.0/settings.png" alt="独立外观设置窗口" width="560"></td>
-  </tr>
-</table>
-
-小窗按视频比例调整，减少空白。设置保持独立、不透明，便于调节；隐藏窗口和点击最小化都会暂停视频。
 
 ## 登录与手机接续
 
