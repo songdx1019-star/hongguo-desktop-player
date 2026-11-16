@@ -1,12 +1,12 @@
 <h1 align="center">红果短剧电脑版 · Hongguo Desktop Player</h1>
 <p align="center"><b>手机与电脑接着看，工作间隙小窗刷。</b><br>手机端自动同步与跨端续播 · 透明小窗 · 清爽 UI · 自动连播<br>30%～100% 透明度 · 自定义底色 · Ctrl + D 隐藏／恢复<br>Windows 下载即用，无需安卓模拟器；非官方红果短剧客户端</p>
 <p align="center">
-  <img src="https://img.shields.io/badge/版本-v3.8.0-ff315d?style=flat-square" alt="v3.8.0">
+  <img src="https://img.shields.io/badge/版本-v3.8.2-ff315d?style=flat-square" alt="v3.8.2">
   <img src="https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4?style=flat-square" alt="Windows 10 / 11">
   <img src="https://img.shields.io/badge/macOS-待发布-777887?style=flat-square" alt="macOS 待发布">
 </p>
 <p align="center">
-  <a href="https://github.com/songdx1019-star/hongguo-desktop-player/releases/download/v3.8.0/Hongguo-Desktop-v3.8.0-Windows-x64.zip"><b>下载 Windows v3.8.0</b></a> ·
+  <a href="https://github.com/songdx1019-star/hongguo-desktop-player/releases/download/v3.8.2/Hongguo-Desktop-v3.8.2-Windows-x64.zip"><b>下载 Windows v3.8.2</b></a> ·
   <a href="https://github.com/songdx1019-star/hongguo-desktop-player/releases">版本记录</a> ·
   <a href="https://github.com/songdx1019-star/hongguo-desktop-player/issues">反馈问题</a>
 </p>
@@ -31,8 +31,8 @@
 <table>
   <tr><th>紧凑小窗</th><th>独立设置窗口</th></tr>
   <tr>
-    <td align="center"><img src="docs/screenshots/v3.8.0/mini.png" alt="贴合视频比例的透明小窗" width="400"></td>
-    <td align="center"><img src="docs/screenshots/v3.8.0/settings.png" alt="独立外观设置窗口" width="560"></td>
+    <td align="center"><img src="docs/screenshots/v3.8.2/mini.png" alt="贴合视频比例的透明小窗" width="400"></td>
+    <td align="center"><img src="docs/screenshots/v3.8.2/settings.png" alt="独立外观设置窗口" width="560"></td>
   </tr>
 </table>
 
@@ -52,13 +52,13 @@
 
 ## 大窗沉浸看，小窗轻松刷
 
-![红果短剧播放器](docs/screenshots/v3.8.0/player.png)
+![红果短剧播放器](docs/screenshots/v3.8.2/player.png)
 
 ## 下载与安装
 
 | 平台 | 状态 | 下载 |
 | :--- | :--- | :--- |
-| Windows 10 / 11，64 位 | v3.8.0 | [下载运行包](https://github.com/songdx1019-star/hongguo-desktop-player/releases/download/v3.8.0/Hongguo-Desktop-v3.8.0-Windows-x64.zip) · [SHA-256 校验](https://github.com/songdx1019-star/hongguo-desktop-player/releases/download/v3.8.0/SHA256SUMS.txt) |
+| Windows 10 / 11，64 位 | v3.8.2 | [下载运行包](https://github.com/songdx1019-star/hongguo-desktop-player/releases/download/v3.8.2/Hongguo-Desktop-v3.8.2-Windows-x64.zip) · [SHA-256 校验](https://github.com/songdx1019-star/hongguo-desktop-player/releases/download/v3.8.2/SHA256SUMS.txt) |
 | macOS | 待发布 | 暂无经过 Mac 本机构建和播放验证的安装包 |
 
 1. 先退出正在运行的旧版。
@@ -67,15 +67,16 @@
 
 安装包未做发行者数字签名，可以使用发行页的 SHA-256 核对文件。软件内的更新入口会前往本仓库发布页。
 
-## v3.8.0 更新
+## v3.8.2 更新
 
-- **恢复片源获取**：跟进新版官方播放接口，修复一批后续分集返回空内容的问题。
-- **增加编码兼容**：支持 ByteVC2 片源转换；同分辨率优先兼容轨道，硬件转换失败时复用原文件进行软件转换。
-- **提前准备下一集**：准备完整本地文件，切集使用已有缓存；耗时操作在后台进行，并区分片源、下载和缓冲状态。
-- **整理日常界面**：首页突出继续观看，最近观看改为横向小卡，收藏与历史集中管理。
-- **减少重复提示**：删除海报下反复出现的操作文字、重复返回入口和过时的空画面说明。
+- **更早出画**：前台边下载、边解码、边播放，首段就绪即可开播；下一集仍在后台完整预加载。
+- **进度与连播**：后台准备完成后转为本地视频，保留当前位置和播放状态，支持拖动及片尾自动下一集。
+- **画质与帧率**：增加流畅优先、最高画质及分辨率选择；帧率菜单提供原始、24、30、60 fps 的显示设置，不改变片源原始帧数。
+- **真正的视频全屏**：隐藏侧栏、标题栏和分类，按比例裁切铺满；退出后恢复布局。
+- **控件更清爽**：精简底栏，次要操作收进“更多”；分类移至左上方，移开或停留约 0.9 秒后渐出。
 
-本轮实际播放器验证《我合成了全世界啊第3季》第 **281～286 集**出画，五次切集使用完整预加载文件，覆盖第 283、285 集的 ByteVC2 片源。测试使用暂停和片尾跳转触发切集，没有完整观看六集全程；这些结果不代表所有剧目和网络环境都已验收。
+真实限速样本：约 **4.2 MB** 的 ByteVC2 视频，下载约 **320 KB、1.78 秒时已经出画**；准备完成后跳转至 15 秒，实际画面约 14.994 秒。单样本结果不能代表所有设备和网络速度；不兼容管道输入时保留完整文件兜底。
+
 
 ## 四个入口，清楚好找
 
@@ -88,15 +89,15 @@
 
 首页直接展示最近一部剧的集数和位置；其他最近观看使用紧凑卡片，给收藏待看留出空间。没有记录时提供找剧和推荐入口。
 
-![追剧首页，观看与收藏为示例记录](docs/screenshots/v3.8.0/home.png)
+![追剧首页，观看与收藏为示例记录](docs/screenshots/v3.8.2/home.png)
 
 ## 找到整部剧，再按季选择
 
 同一官方合集的多季聚合为一个入口，展开后按季数排列。返回时保留原搜索列表和位置，搜索联想在提交后收起。
 
-![搜索短剧与合集](docs/screenshots/v3.8.0/search.png)
+![搜索短剧与合集](docs/screenshots/v3.8.2/search.png)
 
-![按季数排列的短剧合集](docs/screenshots/v3.8.0/seasons.png)
+![按季数排列的短剧合集](docs/screenshots/v3.8.2/seasons.png)
 
 剧目、季数与可播放范围以平台实际返回为准；尚未上线或没有分集的条目不代表可以播放。排行榜、新剧和上新日历收在找剧的“发现”菜单。
 
@@ -104,7 +105,7 @@
 
 收藏、历史使用清楚的切换标签，支持关键词搜索、体裁筛选和批量管理。更新记录时尽量保留卡片、选中状态和滚动位置；没有匹配结果时可一键清除筛选。
 
-![我的剧库，收藏为示例记录](docs/screenshots/v3.8.0/library.png)
+![我的剧库，收藏为示例记录](docs/screenshots/v3.8.2/library.png)
 
 ## 播放控制，用时再出现
 
@@ -112,11 +113,11 @@
 
 倍速旁的“选集”可以快速跳到指定分集。推荐模式滚轮换短剧，进入剧集后滚轮换分集。
 
-![快速选择分集](docs/screenshots/v3.8.0/episode-picker.png)
+![快速选择分集](docs/screenshots/v3.8.2/episode-picker.png)
 
 支持官方时间轴弹幕开关、自动连播和可选画质增强，默认选择片源提供的最高分辨率。增强或编码转换可能增加首次准备时间，实际效果取决于片源与设备。
 
-![播放设置](docs/screenshots/v3.8.0/playback-settings.png)
+![播放设置](docs/screenshots/v3.8.2/playback-settings.png)
 
 ## 常用操作
 
@@ -134,7 +135,7 @@
 
 ## 验证与反馈
 
-v3.8.0 通过 **240 项 Python 全量回归**、最终 **17 项相关检查**、**31 项 Node 测试**，以及打包程序的离屏真实播放自检。测试覆盖指定分集出画、预加载切集、透明度、小窗、隐藏恢复和最小化暂停；Windows 的结果不能代替 macOS 验收。
+v3.8.2 通过 **238 项 Python 测试**（8 项跳过）、限速真实片源检查，以及打包程序的离屏真实播放自检。测试覆盖指定分集出画、预加载切集、透明度、小窗、隐藏恢复和最小化暂停；Windows 的结果不能代替 macOS 验收。
 
 展示图由程序自身的离屏窗口生成，没有截取工作桌面。首页与剧库中的观看、收藏为已标注的示例记录；剧目信息和封面来自公开目录，播放器截图使用真实视频画面。
 
