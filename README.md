@@ -1,12 +1,12 @@
 <h1 align="center">红果短剧电脑版 · Hongguo Desktop Player</h1>
 <p align="center"><b>手机与电脑接着看，工作间隙小窗刷。</b><br>手机端自动同步与跨端续播 · 透明小窗 · 清爽 UI · 自动连播<br>30%～100% 透明度 · 自定义底色 · Ctrl + D 隐藏／恢复<br>Windows 下载即用，无需安卓模拟器；非官方红果短剧客户端</p>
 <p align="center">
-  <img src="https://img.shields.io/badge/版本-v3.8.2-ff315d?style=flat-square" alt="v3.8.2">
+  <img src="https://img.shields.io/badge/版本-v3.8.3-ff315d?style=flat-square" alt="v3.8.3">
   <img src="https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4?style=flat-square" alt="Windows 10 / 11">
   <img src="https://img.shields.io/badge/macOS-待发布-777887?style=flat-square" alt="macOS 待发布">
 </p>
 <p align="center">
-  <a href="https://github.com/songdx1019-star/hongguo-desktop-player/releases/download/v3.8.2/Hongguo-Desktop-v3.8.2-Windows-x64.zip"><b>下载 Windows v3.8.2</b></a> ·
+  <a href="https://github.com/songdx1019-star/hongguo-desktop-player/releases/download/v3.8.3/Hongguo-Desktop-v3.8.3-Windows-x64.zip"><b>下载 Windows v3.8.3</b></a> ·
   <a href="https://github.com/songdx1019-star/hongguo-desktop-player/releases">版本记录</a> ·
   <a href="https://github.com/songdx1019-star/hongguo-desktop-player/issues">反馈问题</a>
 </p>
@@ -58,7 +58,7 @@
 
 | 平台 | 状态 | 下载 |
 | :--- | :--- | :--- |
-| Windows 10 / 11，64 位 | v3.8.2 | [下载运行包](https://github.com/songdx1019-star/hongguo-desktop-player/releases/download/v3.8.2/Hongguo-Desktop-v3.8.2-Windows-x64.zip) · [SHA-256 校验](https://github.com/songdx1019-star/hongguo-desktop-player/releases/download/v3.8.2/SHA256SUMS.txt) |
+| Windows 10 / 11，64 位 | v3.8.3 | [下载运行包](https://github.com/songdx1019-star/hongguo-desktop-player/releases/download/v3.8.3/Hongguo-Desktop-v3.8.3-Windows-x64.zip) · [SHA-256 校验](https://github.com/songdx1019-star/hongguo-desktop-player/releases/download/v3.8.3/SHA256SUMS.txt) |
 | macOS | 待发布 | 暂无经过 Mac 本机构建和播放验证的安装包 |
 
 1. 先退出正在运行的旧版。
@@ -66,6 +66,12 @@
 3. 保留同目录的 `_internal` 和其他随包文件，无须另装安卓模拟器、Java 或解码组件。
 
 安装包未做发行者数字签名，可以使用发行页的 SHA-256 核对文件。软件内的更新入口会前往本仓库发布页。
+
+## v3.8.3 更新
+
+**音频跟随系统输出**：电脑切到蓝牙耳机、其他耳机或扬声器后，播放器自动切换，保留音量、静音和播放状态；连接、断开及休眠恢复时都会重新确认输出。
+
+对应 [issue #1](https://github.com/songdx1019-star/hongguo-desktop-player/issues/1)。设备路由模拟测试和打包播放检查已通过，蓝牙硬件实测仍待确认。
 
 ## v3.8.2 更新
 
@@ -135,7 +141,7 @@
 
 ## 验证与反馈
 
-v3.8.2 通过 **238 项 Python 测试**（8 项跳过）、限速真实片源检查，以及打包程序的离屏真实播放自检。测试覆盖指定分集出画、预加载切集、透明度、小窗、隐藏恢复和最小化暂停；Windows 的结果不能代替 macOS 验收。
+v3.8.3 通过 **243 项 Python 测试**（8 项跳过）、限速真实片源检查，以及打包程序的离屏真实播放自检。测试覆盖指定分集出画、预加载切集、透明度、小窗、隐藏恢复和最小化暂停；Windows 的结果不能代替 macOS 验收。
 
 展示图由程序自身的离屏窗口生成，没有截取工作桌面。首页与剧库中的观看、收藏为已标注的示例记录；剧目信息和封面来自公开目录，播放器截图使用真实视频画面。
 
